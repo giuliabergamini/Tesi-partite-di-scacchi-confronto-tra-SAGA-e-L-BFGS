@@ -1,6 +1,6 @@
 # Partite di scacchi: confronto tra SAGA e L-BFGS
 
-Codice del **Capitolo 4 (Validazione sperimentale)** della tesi di laurea triennale in Matematica
+Codice del **Capitolo 4 (Validazione sperimentale)** della tesi di laurea triennale in Matematica.
 
 **Metodi iterativi e minimi quadrati pesati nell'ottimizzazione per il machine learning**
 Giulia Bergamini · Relatore: Prof. Alessandro Russo
@@ -27,7 +27,7 @@ analizza il condizionamento del problema per spiegare il comportamento osservato
 
 ## Dati
 
-Dataset: [https://www.kaggle.com/datasets/arevel/chess-games]
+Dataset: https://www.kaggle.com/datasets/arevel/chess-games
 
 Scaricare il dataset da Kaggle e inserirlo direttamente nella cartella TESI-PARTITE-DI-SCACCHI-CONFRONTO-TRA-SAGA-EL-BFGS (controllare non ci siano altri file .csv).
 
@@ -44,4 +44,4 @@ Eseguire le celle in ordine.
 
 ## Origine del progetto
 
-Il caso di studio nasce dal progetto di gruppo del corso di *Data Processing and Analysis* ([repository originale (https://github.com/giuliabergamini/Progetto-DPA-definitivo)), ripreso e modificato per gli scopi della tesi.
+Il caso di studio nasce dal progetto di gruppo del corso di *Data Processing and Analysis* (https://github.com/giuliabergamini/Progetto-DPA-definitivo)), ripreso e modificato per gli scopi della tesi.
