@@ -44,4 +44,4 @@ Eseguire le celle in ordine.
 
 ## Origine del progetto
 
-Il caso di studio nasce dal progetto di gruppo del corso di *Data Processing and Analysis* (https://github.com/giuliabergamini/Progetto-DPA-definitivo)), ripreso e modificato per gli scopi della tesi.
+Il caso di studio nasce dal progetto di gruppo del corso di *Data Processing and Analysis* (https://github.com/giuliabergamini/Progetto-DPA-definitivo), ripreso e modificato per gli scopi della tesi.
