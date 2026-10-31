@@ -7,7 +7,7 @@ Giulia Bergamini · Relatore: Prof. Alessandro Russo
 Università degli Studi di Milano-Bicocca · A.A. 2025/26
 
 ## OBIETTIVO DEL PROGETTO
-Si addestra un modello di regressione logistica per prevedere l'esito di partite di scacchi e si confrontano due metodi di ottimizzazione per minimizzare la funzione di costo Log-Loss:
+Si addestra un modello di regressione logistica per prevedere l'esito di partite di scacchi e vengono valutati due metodi di ottimizzazione per minimizzare la funzione di costo Log-Loss:
 
 - **L-BFGS**, metodo quasi-Newton a memoria limitata;
 - **SAGA**, metodo stocastico a riduzione della varianza.
@@ -22,7 +22,7 @@ analizza il condizionamento del problema per spiegare il comportamento osservato
 | `ScacchiMatematici.ipynb` | Notebook principale: preparazione dei dati (pre-processing) , addestramento del modello con L-BFGS e SAGA, valutazione delle prestazioni del modello, confronto dei risultati |
 | `condizionamento.m` | Script MATLAB: numero di condizionamento della matrice dei dati, dell'Hessiana della Log-Loss regolarizzata e stima delle epoche necessarie a SAGA |
 | `dati_condizionamento.mat` | Dati usati dallo script MATLAB (matrice `X`, soluzione `theta`, parametro `C`) |
-| `crossover.pdf` | Descrivere la figura, es. "Grafico di confronto tra L-BFGS e SAGA (Fig. 4.x della tesi)" |
+| `crossover.pdf` | Costo computazionale stimato di L-BFGS e SAGA al variare del numero di osservazioni e punto di crossover (Fig. 4.1 della tesi) |
 | `requirements.txt` | Librerie Python necessarie |
 
 ## Dati
