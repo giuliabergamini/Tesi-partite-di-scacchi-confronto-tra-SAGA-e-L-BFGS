@@ -2,17 +2,17 @@
 
 Codice del **Capitolo 4 (Validazione sperimentale)** della tesi di laurea triennale in Matematica.
 
-**Metodi iterativi e minimi quadrati pesati nell'ottimizzazione per il machine learning**
+**Ottimizzazione per il Machine Learning tramite Metodi Iterativi e Minimi Quadrati Pesati**
 Giulia Bergamini · Relatore: Prof. Alessandro Russo
 Università degli Studi di Milano-Bicocca · A.A. 2025/26
 
-## OBBIETTIVO DEL PROGETTO
+## OBIETTIVO DEL PROGETTO
 Si addestra un modello di regressione logistica per prevedere l'esito di partite di scacchi e si confrontano due metodi di ottimizzazione per minimizzare la funzione di costo Log-Loss:
 
 - **L-BFGS**, metodo quasi-Newton a memoria limitata;
 - **SAGA**, metodo stocastico a riduzione della varianza.
 
-Si confrontano la velocità di convergenza, il costo computazionale per iterazioni o epoche e l'accuratezza del modello. Lo script MATLAB
+Si confrontano la rapidità di convergenza, il costo computazionale per iterazioni o per epoche e l'accuratezza del modello. Lo script MATLAB
 analizza il condizionamento del problema per spiegare il comportamento osservato di SAGA.
 
 ## Contenuto del repository
@@ -29,7 +29,7 @@ analizza il condizionamento del problema per spiegare il comportamento osservato
 
 Dataset: https://www.kaggle.com/datasets/arevel/chess-games
 
-Scaricare il dataset da Kaggle e inserirlo direttamente nella cartella TESI-PARTITE-DI-SCACCHI-CONFRONTO-TRA-SAGA-EL-BFGS (controllare non ci siano altri file .csv).
+Scaricare il dataset da Kaggle e inserirlo direttamente nella cartella TESI-PARTITE-DI-SCACCHI-CONFRONTO-TRA-SAGA-EL-BFGS (controllare che non ci siano altri file .csv).
 
 ## Come riprodurre i risultati
 
