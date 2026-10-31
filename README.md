@@ -19,7 +19,7 @@ analizza il condizionamento del problema per spiegare il comportamento osservato
 
 | File | Descrizione |
 |---|---|
-| `ScacchiMatematici.ipynb` | Notebook principale: preparazione dei dati (pre-processing) , addestramento del modello con L-BFGS e SAGA, valutazione delle prestazioni del modello, confronto dei risultati |
+| `ScacchiMatematici.ipynb` | Notebook principale: preparazione dei dati (pre-processing), addestramento del modello con L-BFGS e SAGA, valutazione delle prestazioni del modello, confronto dei risultati |
 | `condizionamento.m` | Script MATLAB: numero di condizionamento della matrice dei dati, dell'Hessiana della Log-Loss regolarizzata e stima delle epoche necessarie a SAGA |
 | `dati_condizionamento.mat` | Dati usati dallo script MATLAB (matrice `X`, soluzione `theta`, parametro `C`) |
 | `crossover.pdf` | Costo computazionale stimato di L-BFGS e SAGA al variare del numero di osservazioni e punto di crossover (Fig. 4.1 della tesi) |
